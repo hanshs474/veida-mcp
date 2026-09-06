@@ -1,0 +1,23 @@
+{
+  "name": "veida-mcp",
+  "version": "0.1.0",
+  "mcpName": "ai.veida/veida-mcp",
+  "description": "MCP server for Veida (veida.ai) — generate AI images from a prompt with no API key, browse the model shelf, and get model-tuned prompt guidance. Runs on Veida's anonymous free tier: no account, no card.",
+  "keywords": ["mcp","model-context-protocol","ai-image-generator","text-to-image","no-api-key","chatgpt-image","nano-banana","seedream","gpt-image","veida"],
+  "homepage": "https://veida.ai",
+  "bugs": { "url": "https://github.com/hanshs474/veida-mcp/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/hanshs474/veida-mcp.git" },
+  "license": "MIT",
+  "author": "Veida (https://veida.ai)",
+  "type": "module",
+  "bin": { "veida-mcp": "dist/index.js" },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.12.0", "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" },
+  "engines": { "node": ">=18" }
+}

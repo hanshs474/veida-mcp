@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "ai.veida/veida-mcp",
+  "description": "Generate AI images from a prompt with no API key, using Veida's anonymous free tier.",
+  "repository": { "url": "https://github.com/hanshs474/veida-mcp", "source": "github" },
+  "version": "0.1.0",
+  "websiteUrl": "https://veida.ai",
+  "packages": [
+    { "registryType": "npm", "identifier": "veida-mcp", "version": "0.1.0", "transport": { "type": "stdio" } }
+  ]
+}
