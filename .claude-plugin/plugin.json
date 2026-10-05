@@ -1,0 +1,10 @@
+{
+  "name": "veida",
+  "version": "0.1.0",
+  "description": "Generate AI images with no API key or account, and find the right Veida model or tool page for the job.",
+  "author": { "name": "Veida", "url": "https://veida.ai" },
+  "homepage": "https://veida.ai",
+  "repository": "https://github.com/hanshs474/veida-mcp",
+  "license": "MIT",
+  "keywords": ["ai", "image-generation", "mcp", "no-api-key"]
+}

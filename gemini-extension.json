@@ -1,0 +1,12 @@
+{
+  "name": "veida",
+  "version": "0.1.0",
+  "description": "Generate AI images from a prompt with no API key or account (Veida free tier), browse the model shelf and get model-tuned prompt guidance.",
+  "mcpServers": {
+    "veida": {
+      "command": "npx",
+      "args": ["-y", "veida-mcp"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

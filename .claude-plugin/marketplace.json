@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "veida",
+  "description": "Veida AI image tools for Claude Code: generate images with no API key and find the right Veida model page.",
+  "owner": { "name": "Veida", "email": "support@veida.ai" },
+  "plugins": [
+    {
+      "name": "veida",
+      "description": "Generate AI images with no API key or account, and find the right Veida model or tool page for the job.",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://veida.ai"
+    }
+  ]
+}
